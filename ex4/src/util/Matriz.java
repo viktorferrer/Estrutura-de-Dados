@@ -56,9 +56,7 @@ public class Matriz {
 		for (int m = 0; m < mat.length; m++) {
 			for (int n = 0; n < mat.length; n++) {
 				if (mat[m][n] % 2 != 0 && mat[m][n] % 3 != 0) {
-
 					divBy3 += 1;
-
 				}
 			}
 		}
